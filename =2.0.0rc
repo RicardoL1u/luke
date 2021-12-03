@@ -1,0 +1,59 @@
+Collecting paddlenlp
+  Downloading paddlenlp-2.1.1-py3-none-any.whl (735 kB)
+Collecting seqeval
+  Downloading seqeval-1.2.2.tar.gz (43 kB)
+Collecting h5py
+  Downloading h5py-3.6.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (4.5 MB)
+Collecting colorama
+  Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting paddlefsl==1.0.0
+  Downloading paddlefsl-1.0.0-py3-none-any.whl (55 kB)
+Collecting multiprocess
+  Downloading multiprocess-0.70.12.2-py39-none-any.whl (128 kB)
+Collecting jieba
+  Downloading jieba-0.42.1.tar.gz (19.2 MB)
+Collecting colorlog
+  Downloading colorlog-6.6.0-py2.py3-none-any.whl (11 kB)
+Collecting requests~=2.24.0
+  Downloading requests-2.24.0-py2.py3-none-any.whl (61 kB)
+Collecting tqdm~=4.27.0
+  Downloading tqdm-4.27.0-py2.py3-none-any.whl (44 kB)
+Collecting numpy~=1.19.2
+  Downloading numpy-1.19.5-cp39-cp39-manylinux2010_x86_64.whl (14.9 MB)
+Collecting pillow==8.2.0
+  Downloading Pillow-8.2.0-cp39-cp39-manylinux1_x86_64.whl (3.0 MB)
+Collecting urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1
+  Downloading urllib3-1.25.11-py2.py3-none-any.whl (127 kB)
+Collecting chardet<4,>=3.0.2
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Requirement already satisfied: idna<3,>=2.5 in /home/ricardo/miniconda3/lib/python3.9/site-packages (from requests~=2.24.0->paddlefsl==1.0.0->paddlenlp) (2.10)
+Requirement already satisfied: certifi>=2017.4.17 in /home/ricardo/miniconda3/lib/python3.9/site-packages (from requests~=2.24.0->paddlefsl==1.0.0->paddlenlp) (2021.10.8)
+Collecting dill>=0.3.4
+  Downloading dill-0.3.4-py2.py3-none-any.whl (86 kB)
+Collecting scikit-learn>=0.21.3
+  Downloading scikit_learn-1.0.1-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (24.7 MB)
+Collecting scipy>=1.1.0
+  Downloading scipy-1.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (39.8 MB)
+Collecting threadpoolctl>=2.0.0
+  Downloading threadpoolctl-3.0.0-py3-none-any.whl (14 kB)
+Collecting joblib>=0.11
+  Downloading joblib-1.1.0-py2.py3-none-any.whl (306 kB)
+Building wheels for collected packages: jieba, seqeval
+  Building wheel for jieba (setup.py): started
+  Building wheel for jieba (setup.py): finished with status 'done'
+  Created wheel for jieba: filename=jieba-0.42.1-py3-none-any.whl size=19314477 sha256=6268c59752b7f7257509f5fa7da3c5e3b1be8402a5f9ec4f477122e5c2fdf8b5
+  Stored in directory: /home/ricardo/.cache/pip/wheels/7d/74/cf/08c94db4b784e2c1ef675a600b7b5b281fd25240dcb954ee7e
+  Building wheel for seqeval (setup.py): started
+  Building wheel for seqeval (setup.py): finished with status 'done'
+  Created wheel for seqeval: filename=seqeval-1.2.2-py3-none-any.whl size=16170 sha256=1ca35ab6ce99171d50d8716d5824cb3eaaaf55103e81a840fe1e30e6d7d4dd57
+  Stored in directory: /home/ricardo/.cache/pip/wheels/e2/a5/92/2c80d1928733611c2747a9820e1324a6835524d9411510c142
+Successfully built jieba seqeval
+Installing collected packages: numpy, urllib3, threadpoolctl, scipy, joblib, chardet, tqdm, scikit-learn, requests, pillow, dill, seqeval, paddlefsl, multiprocess, jieba, h5py, colorlog, colorama, paddlenlp
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.21.2
+    Uninstalling numpy-1.21.2:
+      Successfully uninstalled numpy-1.21.2
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 1.26.6
+    Uninstalling urllib3-1.26.6:
+      Successfully uninstalled urllib3-1.26.6
