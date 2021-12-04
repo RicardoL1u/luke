@@ -15,6 +15,7 @@ class AddedToken:
     def __getstate__(self):
         return self.__dict__
 
+# add some doc to the tokenizer
 def add_end_docstrings(*docstr):
     def docstring_decorator(fn):
         fn.__doc__ = fn.__doc__ + "".join(docstr)
