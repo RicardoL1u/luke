@@ -1628,3 +1628,5 @@ class LukeTokenizer(RobertaTokenizer):
             f.write(json.dumps(self.entity_vocab, ensure_ascii=False))
 
         return vocab_file, merge_file, entity_vocab_file
+
+   

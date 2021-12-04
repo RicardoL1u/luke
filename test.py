@@ -1,11 +1,11 @@
 from six import text_type
 import unittest
 # from transformers import BertTokenizer
-from paddlenlp.transformers import RobertaTokenizer
-from transformers import LukeTokenizer
+from transformers import RobertaTokenizer
+# from transformers import LukeTokenizer
 from utils import add_end_docstrings
 from LukeTokenizer import ENCODE_KWARGS_DOCSTRING,ENCODE_PLUS_ADDITIONAL_KWARGS_DOCSTRING,INIT_TOKENIZER_DOCSTRING
-# import LukeTokenizer
+import LukeTokenizer
 
 #funA 作为装饰器函数
 def funA(fn):
@@ -35,8 +35,11 @@ class TestToken(unittest.TestCase):
     #     print(inputs)
     # def test_dec(self):
     #     print(funB)
-    def test_func(self):
-        print(add_end_docstrings(ENCODE_KWARGS_DOCSTRING, ENCODE_PLUS_ADDITIONAL_KWARGS_DOCSTRING))
-        print(ENCODE_PLUS_ADDITIONAL_KWARGS_DOCSTRING)
+    # def test_func(self):
+    #     print(add_end_docstrings(ENCODE_KWARGS_DOCSTRING, ENCODE_PLUS_ADDITIONAL_KWARGS_DOCSTRING))
+        # print(ENCODE_PLUS_ADDITIONAL_KWARGS_DOCSTRING)
+    def test_paddleluke(self):
+        tokenizer = LukeTokenizer.LukeTokenizer.from_pretrained("./files/")
+        print(tokenizer)
 if __name__ == '__main__':
     unittest.main()
